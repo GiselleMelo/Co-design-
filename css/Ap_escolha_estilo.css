@@ -1,0 +1,37 @@
+body,html{
+    width:100%;
+    height: 100%;
+    background-color:  white;
+    }
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+main{
+    height: 100%;
+    margin: 1rem;
+    align-items: center;
+    color: black;
+}
+h1{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    color: black;
+}
+h2{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    color: black
+}
+
+h3 li{
+    width:2rem;
+    height:2rem;
+    margin: .8rem 0 0 .8rem;
+    background-color: pink;
+}
