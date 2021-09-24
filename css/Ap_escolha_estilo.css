@@ -50,9 +50,3 @@ li p {
     display: flex;
     margin: auto;
 }
-
-
-.descrição{
-    text-align: justify;
-    text-justify: inter-word;
-}
