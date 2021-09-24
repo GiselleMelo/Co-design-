@@ -1,8 +1,10 @@
 body,html{
-    width:100%;
+    width: 100%;
     height: 100%;
-    background-color:  white;
+    background-color: white;
+    text-align:center;
     }
+
 header{
     display: flex;
     flex-direction: row;
@@ -14,24 +16,43 @@ main{
     margin: 1rem;
     align-items: center;
     color: black;
-}
-h1{
     display: flex;
+    flex-direction: column;
     align-items: center;
-    font-size: 2rem;
+}
+
+h1{
+    text-align: center; 
+    font-size:xx-large;
     color: black;
 }
+
 h2{
     text-align: center;
     display: flex;
-    align-items: center;
+    justify-items: center;
+    flex-direction: row;
     font-size: 2rem;
-    color: black
 }
 
-h3 li{
-    width:2rem;
-    height:2rem;
-    margin: .8rem 0 0 .8rem;
-    background-color: pink;
+h3{
+    text-align: left;
+    font-size:x-large;
+}
+
+p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+li p {
+    width: 50;
+    font-size: large;
+    display: flex;
+    margin: auto;
+}
+
+
+.descrição{
+    text-align: justify;
+    text-justify: inter-word;
 }
