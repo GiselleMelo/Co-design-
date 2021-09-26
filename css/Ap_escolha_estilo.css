@@ -9,11 +9,13 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin: 30px;
 }
 
 main{
     height: 100%;
-    margin: 1rem;
+    margin: auto;
+    width: 60%;
     align-items: center;
     color: black;
     display: flex;
@@ -38,15 +40,34 @@ h2{
 h3{
     text-align: left;
     font-size:x-large;
+    padding-left: 10px;
 }
 
 p {
     text-align: justify;
     text-justify: inter-word;
+    padding: 10px;
 }
-li p {
+
+.imovel {
+    display: flex;
+    flex-direction: row;
+}
+
+.imovel > li {
+    padding: 10px 0px;
+}
+
+.description {
+    display: flex;
+    align-items: center;
+    padding: 0px 5px;
+}
+
+
+/* li p {
     width: 50;
     font-size: large;
     display: flex;
     margin: auto;
-}
+} */
