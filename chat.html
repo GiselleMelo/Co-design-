@@ -6,115 +6,100 @@
 			<link rel="stylesheet" href="css/reset.css">
 			<link rel="stylesheet" href = "css/chat.css">
 			<meta charset="UTF-8">
-			<title> Conversa com NOME </title>
+			<title> Conversa com FULANO </title>
 		</head>
 	
 		<body>
 
 			<header>
 
-				<h1> NOME </h1>
-                
-                <img src="https://picsum.photos/50/50" alt="Ícone de perfil" title="NOME">
+				<h1> FULANO </h1>
+				<img class = "user" src="https://picsum.photos/200/300" alt="Imagem do usuário"> 
 
 			</header>
 
 			<main>
 
-				<ul>
+				<ul id="mensagens">
+					<li class="bloco2">
 
-					<li>
+						<ul">
 
-						<ul>
-
-							<li> Conteúdo da mensagem </li>
-							<li> <img src="https://picsum.photos/50/50" alt="Ícone de visualizado" title="Visualizado"> </li>
-							<li> Horário </li> 
-							
-
-						</ul>
-
-					</li>
-
-					<li>
-
-						<ul class="left">
-
-							<li> <img src="https://picsum.photos/200/300" alt="Imagem do usuário"> </li>
-							<li> <img src="https://picsum.photos/50/50" alt="Ícone de visualizado" title="Visualizado"> </li>
-							<li> Horário </li> 
+							<li> Conteudo da mensagem</li>
+							<li> <img class = "visualizado" src="https://picsum.photos/50/50" alt="Ícone de visualizado" title="Visualizado"> </li>
+							<li> 4:20 </li> 
 							
 						</ul>
 
 					</li>
 
-					<li>
+					<li class = "bloco1">
 
 						<ul>
 
 							<li> Conteúdo da mensagem </li>
-							<li> <img src="https://picsum.photos/50/50" alt="Ícone de visualizado" title="Visualizado"> </li>
-							<li> Horário </li>
+							<li> <img class= "visualizado" src="https://blogdoiphone.com/wp-content/uploads/2014/11/tiques.png" alt="Ícone de visualizado" title="Visualizado"> </li>
+							<li> 4:20 </li>
 
 						</ul>
 
 					</li>
 
-					<li>
+					<li class = "bloco2">
 
 						<ul>
 
 							<li> <iframe width="200" height="150" src="https://www.youtube.com/embed/BggrpKfqh1c" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </li>
-							<li> <img src="https://picsum.photos/50/50" alt="Ícone de visualizado" title="Visualizado"> </li>
-							<li> Horário </li>
+							<li> <img class= "visualizado" src="https://blogdoiphone.com/wp-content/uploads/2014/11/tiques.png" alt="Ícone de visualizado" title="Visualizado"> </li>
+							<li> 4:20 </li>
 
 						</ul>
 
 					</li>
 
-					<li>
+					<li class = "bloco1">
 
 						<ul>
 
 							<li> Conteúdo da mensagem </li>
-							<li> <img src="https://picsum.photos/50/50" alt="Ícone de visualizado" title="Visualizado"> </li>
-							<li> Horário </li>
+							<li> <img class= "visualizado" src="https://blogdoiphone.com/wp-content/uploads/2014/11/tiques.png" alt="Ícone de visualizado" title="Visualizado"> </li>
+							<li> 4:20 </li>
 
 						</ul>
 
 					</li>
 
-					<li>
+					<li class="bloco2">
 
 						<ul>
 
 							<li> Conteúdo da mensagem </li>
-							<li> <img src="https://picsum.photos/50/50" alt="Ícone de visualizado" title="Visualizado"> </li>
-							<li> Horário </li>
+							<li> <img class= "visualizado" src="https://blogdoiphone.com/wp-content/uploads/2014/11/tiques.png" alt="Ícone de visualizado" title="Visualizado"> </li>
+							<li> 4:20 </li>
 
 						</ul>
 
 					</li>
 
-					<li>
+					<li class = "bloco1">
 
 						<ul>
 
 							<li> <img src="https://picsum.photos/200/300" alt="Imagem do usuário"> </li>
-							<li> <img src="https://picsum.photos/50/50" alt="Ícone de visualizado" title="Visualizado"> </li>
-							<li> Horário </li>
+							<li> <img class= "visualizado" src="https://blogdoiphone.com/wp-content/uploads/2014/11/tiques.png" alt="Ícone de visualizado" title="Visualizado"> </li>
+							<li> 4:20 </li>
 
 						</ul>
 
 					</li>
 
-					<li>
+					<li class = "bloco2">
 
 						<ul>
 
 							<li> Conteúdo da mensagem </li>
-							<li> <img src="https://picsum.photos/50/50" alt="Ícone de visualizado" title="Visualizado"> </li>
-							<li> Horário </li>
+							<li> <img class= "visualizado" src="https://blogdoiphone.com/wp-content/uploads/2014/11/tiques.png" alt="Ícone de visualizado" title="Visualizado"> </li>
+							<li> 4:20 </li>
 
 						</ul>
 
@@ -125,15 +110,12 @@
 			</main>
 
 			<footer>
-
-                <input type="text" placeholder="Digite"> 
-
-                <input type="button" value="Adicionar mídia"> 
-
-				<a href='Apartamentos_chat.html'> <img src="https://picsum.photos/50/100" alt="Escolhemos" title="Escolhemos"> </a>>
-
-				<a href="amigos.html"> <img src="https://picsum.photos/50/100" alt="Voltar para a página anterior" title="Voltar"> </a>
-
+				<ul id="input">
+                	<li><input type="text" placeholder="Digite"></li>
+                	<li><input type="button" value="Adicionar mídia"></li>
+					<li><a href='Apartamentos_chat.html'> <img src="https://picsum.photos/50/100" alt="Escolhemos" title="Escolhemos"> </a>></li>
+					<li><a href="amigos.html"> <img src="https://picsum.photos/50/100" alt="Voltar para a página anterior" title="Voltar"> </a></li>
+				</ul>
 			</footer>
 
 		</body>

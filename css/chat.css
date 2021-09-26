@@ -1,11 +1,53 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+header {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 h1 {
     display: flex;
-    justify-content: space-around;
+    font:"Times New Roman";
+    font-size: 3.5rem;
 }
 main {
     display:flex;
+    flex-direction: column;
 }
-.left {
-    align-items: left;
-    
+
+.bloco1{
+    display:flex;
+    flex-direction:row;
+
+}
+.bloco2{
+    display:flex;
+    flex-direction:row-reverse;
+}
+li ul{
+    display:flex;
+    flex-direction: column;
+}
+
+.user{
+    width: 15rem;
+    height:15rem;
+    border-radius: 50%;
+}
+.visualizado{
+    width: 6rem;
+    height: 1.5rem;;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#input{
+    display:flex;
+    flex-direction:row;
 }
