@@ -1,0 +1,69 @@
+body,html{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    text-align:center;
+    }
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 30px;
+}
+
+main{
+    height: 100%;
+    margin: auto;
+    width: 60%;
+    align-items: center;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    text-align: center; 
+    font-size:xx-large;
+    color: black;
+}
+
+h2{
+    text-align: center;
+    display: flex;
+    justify-items: center;
+    flex-direction: row;
+    font-size: 2rem;
+}
+
+h3{
+    text-align: left;
+    font-size:x-large;
+    padding-left: 10px;
+}
+
+p {
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 10px;
+}
+
+.imovel {
+    display: flex;
+    flex-direction: row;
+}
+
+.imovel > li {
+    padding: 10px 0px;
+}
+
+.description {
+    display: flex;
+    align-items: center;
+    padding: 0px 5px;
+}
+
+footer{
+    position: relative;
+}
