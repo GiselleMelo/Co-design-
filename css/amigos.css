@@ -19,14 +19,14 @@ h1 {
 main {
     height:95%;
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    flex-direction: column;
+    margin:1rem;
 
 }
 
 .esquerda{
     display:flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
 
@@ -43,18 +43,12 @@ main {
     position: relative;
 }
 
-.esquerda h2{
-    color: blueviolet;
-    left: 30rem;
-    top: 12rem;
-    position: absolute;
-    display: inline;
-}
+
 
 .direita{
     display:flex;
-    flex-direction: column;
-    justify-content: flex-end;
+    flex-direction: row;
+    justify-content: flex-start;
     align-items: flex-end;
 }
 .direita a{
@@ -68,10 +62,13 @@ main {
     position: relative;
 }
 
-.direita h2{
-    color: blueviolet;
-    right: 30rem;
-    bottom: -2rem;
-    position: absolute;
-    display: inline;
+.linha{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+}
+.coluna{
+    display:flex;
+    flex-direction: column;
 }
