@@ -1,0 +1,11 @@
+h1 {
+    display: flex;
+    justify-content: space-around;
+}
+main {
+    display:flex;
+}
+.left {
+    align-items: left;
+    
+}
