@@ -91,3 +91,13 @@ footer a{
 h1{
     font-size: xx-large;
 }
+
+#profile{
+    width: 100px;
+    height: 100px;
+}
+
+#checked{
+    width: 80px;
+    height: 80px;
+}
