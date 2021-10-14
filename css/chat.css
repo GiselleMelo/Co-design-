@@ -46,8 +46,25 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
+    position:relative;
 }
 #input{
     display:flex;
     flex-direction:row;
+}
+#escolhemos{
+width:90px;
+height:90px;
+}
+#voltar{
+position:absolute;
+bottom:1rem;
+left:72rem;
+}
+#img_voltar{
+    width:80px;
+    height:50px;
+}
+#voltar a{
+    height:100%;
 }
