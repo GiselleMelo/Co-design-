@@ -1,26 +1,63 @@
-h1 {
-    display:flex;
-    justify-content: center;
-    font-size:3rem;
-    font:"Times New Roman";
-    margin: 1rem;
+html,body{
+    width: 100%;
+    height: 100%;
 }
-main {
+
+header{
+    height: 15%;
+    border-bottom: 0.1rem solid black;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
 }
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+main,li{
+    height: 100%;
+
+}
+
 ul{
-    display:flex;
+    height: 80%;
+    display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
 }
+
 li{
-    display:flex;
+    display: flex;
     flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
-    margin:2rem;
 }
-p{
-    font-size: 1.5rem;
+
+a{
+    display: flex;
+    justify-content: center;
     align-items: center;
+    height: 10rem;
+    width: 10rem;
+    border: 0.1rem solid black;
+    border-radius: 50%;
+}
+
+p{
+    text-align: center;
+    font-size: x-large;
+}
+
+h1{
+    font-size: xx-large;
+}
+
+#meio{
+    justify-content: flex-end;
 }
