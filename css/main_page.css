@@ -4,7 +4,7 @@ html,body{
 }
 
 header{
-    height: 15%;
+    height: 50%;
     border-bottom: 0.1rem solid black;
     display: flex;
     justify-content: center;
@@ -55,7 +55,9 @@ p{
 }
 
 h1{
-    font-size: xx-large;
+    font-size: 4rem;
+    width: 22%;
+    text-align: center;
 }
 
 #meio{
