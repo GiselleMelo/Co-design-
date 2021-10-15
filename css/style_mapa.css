@@ -13,7 +13,7 @@ main{
 }
 
 input[type=search]{
-    position:absolute;
+    position:fixed;
     top: 2rem;
     font-size: 2rem;
 }
@@ -21,7 +21,7 @@ input[type=search]{
 .voltar{
     height: 7rem;
     width: 7rem;
-    position: absolute;
+    position: fixed;
     left: 5rem;
     bottom: 5rem;
 }
