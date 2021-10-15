@@ -8,18 +8,20 @@
 
 main{
     position: relative;
+    width: 100%;
+    height: 100%
 }
 
 input[type=search]{
-    position:absolute;
-    top: 20px;
-    font-size: 24px;
+    position:fixed;
+    top: 2rem;
+    font-size: 2rem;
 }
 
 .voltar{
-    height: 100px;
-    width: 100px;
-    position: absolute;
-    left: 300px;
-    top: 650px;
+    height: 7rem;
+    width: 7rem;
+    position: fixed;
+    left: 5rem;
+    bottom: 5rem;
 }
