@@ -10,7 +10,6 @@ header {
 
 h1 {
     display: flex;
-    font:"Times New Roman";
     font-size: 3.5rem;
 }
 main {
@@ -31,6 +30,19 @@ main {
 li ul{
     display:flex;
     flex-direction: column;
+}
+
+#escolheu{
+    display: block;
+    width: 115px;
+    height: 0.4rem;
+    padding: 10px;
+    text-align: center;
+    color: black;
+    background: #4E9CAF; /*placeholder*/
+    border-radius: 5px;
+    font-weight: bold;
+    line-height: 0.2rem;
 }
 
 .user{
