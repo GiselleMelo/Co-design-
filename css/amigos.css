@@ -42,17 +42,31 @@ a{
 }
 
 .direita{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.esquerda{
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-end;
 }
 
-.esquerda{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-start;
+.esq{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.dir{
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 
 .l{
