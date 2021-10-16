@@ -92,12 +92,12 @@ h1{
     font-size: xx-large;
 }
 
-#profile{
+.profile{
     width: 100px;
     height: 100px;
 }
 
-#checked{
+.checked{
     width: 80px;
     height: 80px;
 }
