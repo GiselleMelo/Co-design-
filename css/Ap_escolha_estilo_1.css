@@ -5,17 +5,41 @@ body,html{
     text-align:center;
     }
 
+main,html{
+    background-color: #f5f8ff;
+}
+
+h2,h3{
+    font-family: 'Montserrat',sans-serif;
+}
+
+p{
+    font-family: 'Zilla Slab',serif;
+}
+
+div{
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
 header{
     display: flex;
+    height: 15%;
     flex-direction: row;
     justify-content: center;
-    margin: 30px;
+    align-items: center;
+    background: rgb(245,248,255);
+    background: linear-gradient(0deg,rgba(245, 248, 255,1)0%,rgba(255,101,163,1)100%);
+}
+
+header h1{
+    font-family: 'Montserrat',sans-serif;
 }
 
 main{
     height: 100%;
     margin: auto;
-    width: 60%;
+    width: 100%;
     align-items: center;
     color: black;
     display: flex;
