@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded',function(){
     let inp = document.querySelectorAll('input')
     barra = inp[0]
     btn = inp[1]
-    btn.addEventListener('click',function(){
+    var func = function(event){
         voltar = document.querySelector('#voltar')
         pai = document.querySelector('#mensagens')
         bloco = document.createElement('li')
@@ -25,5 +25,12 @@ document.addEventListener('DOMContentLoaded',function(){
         li_time.innerHTML = horario
         msg.appendChild(li_time)
         barra.value = ''
+    }
+    btn.addEventListener('click',func)
+    document.addEventListener('keyup',function(event){
+        if (event.key == 'Enter'){
+            console.log('foi')
+            func(event)
+        } 
     })
 })
