@@ -1,0 +1,18 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+html{
+    background-color:#f5f8ff;
+}
+
+header{
+    height: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    background: rgb(245,248,255);
+    background: linear-gradient(0deg,rgba(245, 248, 255,1)0%,rgba(255,101,163,1)100%);
+}
