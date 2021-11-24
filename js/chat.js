@@ -20,6 +20,7 @@ document.addEventListener('DOMContentLoaded',function(){
         pho.classList.add('visualizado')
         li_pho.appendChild(pho)
         li_time = document.createElement('li')
+        li_time.classList.add('hor')
         var date = new Date()
         horario = date.getHours() + ':' + date.getMinutes()
         li_time.innerHTML = horario
