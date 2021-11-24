@@ -51,8 +51,7 @@ footer a{
     align-items: center;
     grid-auto-flow: row;
     grid-auto-rows: 10.7rem;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 2rem;
+    grid-template-columns: 1fr;
     row-gap: 1rem;
     overflow-y: scroll;
 }
