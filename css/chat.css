@@ -100,3 +100,8 @@ left:1rem;
 #mensagens{
     padding-bottom: 1rem;
 }
+
+.hor{
+    font-size: 0.85rem;
+    font-style: italic;
+}
