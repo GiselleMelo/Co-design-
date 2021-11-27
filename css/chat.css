@@ -44,6 +44,31 @@ main {
 li ul{
     display:flex;
     flex-direction: column;
+    background-color: #f9bbb1;
+  	position: relative;
+  	border-radius: 10%;
+    padding: 1rem;
+    min-width: 3rem;
+}
+
+.left{
+    border-left: 2vh solid transparent;
+	border-right: 2vh solid transparent;
+	border-top: 10vh solid #f9bbb1;
+	position: absolute;
+	top: 60%;
+	left: -1.7rem;
+	transform: rotate(60deg);
+}
+
+.right{
+    border-left: 2vh solid transparent;
+	border-right: 2vh solid transparent;
+	border-top: 10vh solid #f9bbb1;
+	position: absolute;
+	top: 60%;
+	right: -1.7rem;
+	transform: rotate(-60deg);
 }
 
 #escolheu{
@@ -102,9 +127,20 @@ left:1rem;
 
 #mensagens{
     padding-bottom: 1rem;
+    padding-left: 1.3rem;
+    padding-right:1.3rem;
 }
 
 .hor{
     font-size: 0.85rem;
     font-style: italic;
+}
+
+#ultimo{
+    margin-bottom: 2rem;
+}
+
+#laos{
+    height: 100%;
+    width: 100%;
 }

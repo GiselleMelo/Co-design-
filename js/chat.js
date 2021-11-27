@@ -7,18 +7,19 @@ document.addEventListener('DOMContentLoaded',function(){
         pai = document.querySelector('#mensagens')
         bloco = document.createElement('li')
         bloco.classList.add('bloco2')
+        bloco.style.marginBottom = '2rem'
         pai.appendChild(bloco)
         msg = document.createElement('ul')
         bloco.appendChild(msg)
+        div = document.createElement('div')
+        div.classList.add('right')
+        msg.appendChild(div)
         li_txt = document.createElement('li')
         li_txt.innerHTML = barra.value
         msg.appendChild(li_txt)
         li_pho = document.createElement('li')
+        li_pho.innerHTML = '✔️✔️'
         msg.appendChild(li_pho)
-        pho = document.createElement('img')
-        pho.src = 'https://blogdoiphone.com/wp-content/uploads/2014/11/tiques.png'
-        pho.classList.add('visualizado')
-        li_pho.appendChild(pho)
         li_time = document.createElement('li')
         li_time.classList.add('hor')
         var date = new Date()
