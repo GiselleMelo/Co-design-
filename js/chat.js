@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded',function(){
         pai.appendChild(bloco)
         msg = document.createElement('ul')
         bloco.appendChild(msg)
-        div = document.createElement('div')
+        div = document.createElement('li')
         div.classList.add('right')
         msg.appendChild(div)
         li_txt = document.createElement('li')
