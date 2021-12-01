@@ -52,9 +52,9 @@ li ul{
 }
 
 .left{
-    border-left: 2vh solid transparent;
-	border-right: 2vh solid transparent;
-	border-top: 10vh solid #f9bbb1;
+    border-left: 0.8rem solid transparent;
+	border-right: 0.8rem solid transparent;
+	border-top: 3rem solid #f9bbb1;
 	position: absolute;
 	top: 60%;
 	left: -1.7rem;
@@ -62,9 +62,9 @@ li ul{
 }
 
 .right{
-    border-left: 2vh solid transparent;
-	border-right: 2vh solid transparent;
-	border-top: 10vh solid #f9bbb1;
+    border-left: 0.8rem solid transparent;
+	border-right: 0.8rem solid transparent;
+	border-top: 3rem solid #f9bbb1;
 	position: absolute;
 	top: 60%;
 	right: -1.7rem;
@@ -73,14 +73,14 @@ li ul{
 
 #escolheu{
     display: block;
-    width: 115px;
+    width: 100%;
     text-decoration: none;
     height: 0.4rem;
-    padding: 10px;
+    padding: 11%;
     text-align: center;
     color: #f5f8ff;
     background: #cc0051;
-    border-radius: 5px;
+    border-radius: 10%;
     font-weight: bold;
     line-height: 0.2rem;
 }
@@ -100,7 +100,8 @@ li ul{
 }
 footer{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
     position:relative;
 }
@@ -108,18 +109,13 @@ footer{
     display:flex;
     flex-direction:row;
 }
-#escolhemos{
-width:90px;
-height:90px;
-}
+
 #voltar{
-position:absolute;
-bottom:1rem;
-left:1rem;
+    padding: 1rem;
 }
 #img_voltar{
-    width:80px;
-    height:50px;
+    width:4rem;
+    height:3rem;
 }
 #voltar a{
     height:100%;
