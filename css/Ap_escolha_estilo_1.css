@@ -65,17 +65,21 @@ h3{
     text-align: left;
     font-size:x-large;
     padding-left: 10px;
+    padding-top:1rem;
 }
 
 p {
     text-align: justify;
     text-justify: inter-word;
     padding: 10px;
+    width:20rem;
 }
 
 .imovel {
     display: flex;
     flex-direction: row;
+    flex-wrap:wrap;
+    padding:1rem;
 }
 
 .imovel > li {
