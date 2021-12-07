@@ -9,6 +9,7 @@ html,body{
     position: relative;
     display: flex;
     justify-content: center;
+    overflow: hidden;
 }
 
 main{
@@ -18,9 +19,10 @@ main{
 }
 
 input[type=search]{
-    position:fixed;
-    width: 29rem;
+    position:absolute;
+    width: 20rem;
     font-family: 'Montserrat',sans-serif;
+    font-size: small;
     top: 2rem;
     font-size: 2rem;
 }
@@ -34,7 +36,7 @@ position:relative;
     height: 7rem;
     width: 7rem;
     position: absolute;
-    left: 5rem;
-    bottom: 5rem;
+    left: 1rem;
+    bottom: 1rem;
 
 }
