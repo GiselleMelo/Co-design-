@@ -75,14 +75,15 @@ li ul{
     display: block;
     width: 100%;
     text-decoration: none;
-    height: 0.4rem;
+    height: 0.8rem;
     padding: 11%;
     text-align: center;
     color: #f5f8ff;
     background: #cc0051;
     border-radius: 10%;
     font-weight: bold;
-    line-height: 0.2rem;
+    line-height: 0.6rem;
+    font-size: large;
 }
 
 .user{
@@ -104,6 +105,7 @@ footer{
     justify-content: center;
     align-items: center;
     position:relative;
+    flex-wrap: wrap-reverse;
 }
 #input{
     display:flex;
